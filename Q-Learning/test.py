@@ -113,5 +113,7 @@ def play():
             now_state = next_state
             print('Move to %d' % (next_state))
 
-train()
-play()
+
+if __name__ == '__main__':
+    train()
+    play()
